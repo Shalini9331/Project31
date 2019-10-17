@@ -23,6 +23,7 @@ public class Sam {
 		h.click();
 		Alert a =  d.switchTo().alert();
 		a.accept();
+		d.close();
 	    
 	   
 		
